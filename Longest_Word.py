@@ -8,8 +8,7 @@ def LongestWord(sen):
     words = sen.split()
     longest = ''
     
-    for val in words:
-        
+    for val in words: 
         if len(val) > len(longest):
             longest = val
         
